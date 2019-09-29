@@ -415,7 +415,7 @@ body {
 .img_bg_main1 {
   position: absolute;
   left: 0;
-  top: 150;
+  top: 0;
   z-index: -1;
 }
 
