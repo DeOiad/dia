@@ -12,7 +12,6 @@ body {
 
 .header {
   height: 848px;
-  background-image: url(/img/Rectangle.png);
   background-repeat: no-repeat;
   color: #FFFFFF;
   margin: 0 auto;
@@ -130,6 +129,13 @@ body {
   position: absolute;
   top: 0;
   left: 600px;
+  z-index: -1;
+}
+
+.img_bg_main {
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
@@ -340,7 +346,6 @@ body {
 
 .features {
   height: 1116px;
-  background-image: url(/img/bg_blue.png);
   background-repeat: no-repeat;
   position: relative;
 }
@@ -405,6 +410,13 @@ body {
   position: absolute;
   left: 553px;
   bottom: 140px;
+}
+
+.img_bg_main1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .testimonials {
