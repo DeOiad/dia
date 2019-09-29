@@ -12,7 +12,7 @@ body {
 
 .header {
     height: 848px;
-    // background-color: #56CCF2;
+    background-color: #56CCF2;
     // background-image: url(/img/Rectangle.png);
     background-repeat: no-repeat;
     color: #FFFFFF;
@@ -472,7 +472,7 @@ body {
 .img_bg_main1 {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -150px;
     z-index: -1;
 }
 

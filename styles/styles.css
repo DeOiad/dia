@@ -12,6 +12,7 @@ body {
 
 .header {
   height: 848px;
+  background-color: #56CCF2;
   background-repeat: no-repeat;
   color: #FFFFFF;
   margin: 0 auto;
@@ -415,7 +416,7 @@ body {
 .img_bg_main1 {
   position: absolute;
   left: 0;
-  top: 0;
+  top: -150px;
   z-index: -1;
 }
 
