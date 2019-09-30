@@ -12,8 +12,6 @@ body {
 
 .header {
     height: 848px;
-    // background-color: #56CCF2;
-    // background-image: url(/img/Rectangle.png);
     background-repeat: no-repeat;
     color: #FFFFFF;
     margin: 0 auto;
@@ -39,12 +37,19 @@ body {
             font-size: 32px;
             margin-left: 227px;
             margin-right: 143px;
+
+            &:hover {
+                border: none;
+            }
         }
 
         &:last-child {
             margin-right: 424px;
             margin-left: 135px;
-            border-bottom: 4px solid #FCC304;
+        }
+
+        &:hover {
+            border-bottom: 1px solid #FCC304;
         }
 
     }
@@ -82,6 +87,13 @@ body {
         border: 0;
         text-align: center;
         letter-spacing: 1px;
+
+        &:hover {
+            cursor: pointer;
+            color: #FFFFFF;
+            background: #2F80ED;
+            border: 1px solid #FFFFFF;
+        }
     }
 
     &_image {
@@ -255,6 +267,10 @@ body {
             line-height: 140%;
             margin-bottom: 32px;
             margin-top: -50px;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         &__paragraph {
@@ -265,6 +281,10 @@ body {
 
         &__img {
             margin-left: -35px;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 
@@ -526,6 +546,11 @@ body {
         z-index: 1;
         background: #FEFEFE;
 
+        &:hover {
+            cursor: pointer;
+            background: #E5E5E5;
+        }
+
         &__color {
             position: absolute;
             top: 37.34px;
@@ -629,6 +654,13 @@ body {
             line-height: 150%;
             text-align: center;
             letter-spacing: 1px;
+
+            &:hover {
+                cursor: pointer;
+                color: #2F80ED;
+                background: #FFFFFF;
+                border: 1px solid #2F80ED;
+            }
         }
     }
 
@@ -730,7 +762,7 @@ body {
             }
         }
 
-        &__paragraph {
+        &__input {
             font-weight: bold;
             font-size: 14.4px;
             line-height: 150%;
@@ -738,7 +770,7 @@ body {
             padding-bottom: 18px;
         }
 
-        &__button {
+        &__submit {
             width: 226px;
             height: 56px;
             background: #2F80ED;
@@ -752,6 +784,13 @@ body {
             line-height: 150%;
             margin-top: 100px;
             margin-bottom: 0;
+
+            &:hover {
+                cursor: pointer;
+                color: #2F80ED;
+                background: #FFFFFF;
+                border: 1px solid #2F80ED;
+            }
         }
     }
 
@@ -814,6 +853,11 @@ body {
 
             &-icon{
                 margin-right: 48px;
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.6;
+                }
             } 
         }
     }
@@ -836,6 +880,10 @@ body {
             text-decoration: none;
             color: #253757;
             margin-left: 63px;
+
+            &:hover {
+                color: #56CCF2;
+            }
         }
     }
 }

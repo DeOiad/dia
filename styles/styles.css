@@ -36,10 +36,15 @@ body {
   margin-left: 227px;
   margin-right: 143px;
 }
+.header_navbar__link:first-child:hover {
+  border: none;
+}
 .header_navbar__link:last-child {
   margin-right: 424px;
   margin-left: 135px;
-  border-bottom: 4px solid #FCC304;
+}
+.header_navbar__link:hover {
+  border-bottom: 1px solid #FCC304;
 }
 .header h1 {
   font-weight: 900;
@@ -72,6 +77,12 @@ body {
   border: 0;
   text-align: center;
   letter-spacing: 1px;
+}
+.header_button:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #2F80ED;
+  border: 1px solid #FFFFFF;
 }
 .header_image {
   width: 1145px;
@@ -230,6 +241,9 @@ body {
   margin-bottom: 32px;
   margin-top: -50px;
 }
+.about_card__heading:hover {
+  cursor: pointer;
+}
 .about_card__paragraph {
   font-weight: normal;
   font-size: 16px;
@@ -237,6 +251,9 @@ body {
 }
 .about_card__img {
   margin-left: -35px;
+}
+.about_card__img:hover {
+  cursor: pointer;
 }
 .about_heading {
   font-weight: 900;
@@ -464,6 +481,10 @@ body {
   z-index: 1;
   background: #FEFEFE;
 }
+.testimonials_person-box:hover {
+  cursor: pointer;
+  background: #E5E5E5;
+}
 .testimonials_person-box__color {
   position: absolute;
   top: 37.34px;
@@ -557,6 +578,12 @@ body {
   text-align: center;
   letter-spacing: 1px;
 }
+.footer_textarea__button:hover {
+  cursor: pointer;
+  color: #2F80ED;
+  background: #FFFFFF;
+  border: 1px solid #2F80ED;
+}
 .footer_elipse-1 {
   position: absolute;
   top: 220px;
@@ -640,14 +667,14 @@ body {
 .footer_messagearea_title__icon {
   margin-right: 16px;
 }
-.footer_messagearea__paragraph {
+.footer_messagearea__input {
   font-weight: bold;
   font-size: 14.4px;
   line-height: 150%;
   border-bottom: 1px solid #E1E1E1;
   padding-bottom: 18px;
 }
-.footer_messagearea__button {
+.footer_messagearea__submit {
   width: 226px;
   height: 56px;
   background: #2F80ED;
@@ -661,6 +688,12 @@ body {
   line-height: 150%;
   margin-top: 100px;
   margin-bottom: 0;
+}
+.footer_messagearea__submit:hover {
+  cursor: pointer;
+  color: #2F80ED;
+  background: #FFFFFF;
+  border: 1px solid #2F80ED;
 }
 .footer_contactarea {
   display: flex;
@@ -716,6 +749,10 @@ body {
 .footer_contactarea__social-icon {
   margin-right: 48px;
 }
+.footer_contactarea__social-icon:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
 .footer_navbar {
   position: absolute;
   bottom: 83px;
@@ -733,6 +770,9 @@ body {
   text-decoration: none;
   color: #253757;
   margin-left: 63px;
+}
+.footer_navbar__link:hover {
+  color: #56CCF2;
 }
 
 .first_link {
