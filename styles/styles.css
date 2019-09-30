@@ -3,14 +3,23 @@
 }
 
 body {
-  width: 1600px;
+  width: 100%;
   height: auto;
   position: relative;
   margin: 0 auto;
   box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 .header {
+  max-width: 1600px;
+  min-width: 320px;
   height: 848px;
   background-repeat: no-repeat;
   color: #FFFFFF;
@@ -174,6 +183,9 @@ body {
 .welcome {
   background: #FCFCFD;
   height: 832px;
+  max-width: 1600px;
+  min-width: 320px;
+  margin: 0 auto;
 }
 .welcome_title {
   position: relative;
@@ -219,12 +231,14 @@ body {
 }
 
 .about {
-  width: 1600px;
+  max-width: 1600px;
+  min-width: 320px;
   height: 704px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 .about_card {
   width: 264px;
@@ -280,7 +294,8 @@ body {
 .process {
   height: 816px;
   background: #FCFCFD;
-  width: 1462px;
+  max-width: 1600px;
+  min-width: 320px;
   margin: 0 auto;
   position: relative;
 }
@@ -290,7 +305,7 @@ body {
   flex-direction: column;
   width: 362px;
   top: 161px;
-  left: 163px;
+  left: 227px;
 }
 .process_text-block__heading {
   font-weight: 900;
@@ -363,8 +378,11 @@ body {
 
 .features {
   height: 1116px;
+  max-width: 1600px;
+  min-width: 320px;
   background-repeat: no-repeat;
   position: relative;
+  margin: 0 auto;
 }
 .features_text-block {
   position: relative;
@@ -439,6 +457,8 @@ body {
 .testimonials {
   height: 464px;
   background: #FFFFFF;
+  max-width: 1600px;
+  min-width: 320px;
   margin: 0 auto;
   position: relative;
 }
@@ -543,6 +563,9 @@ body {
   height: 1715px;
   background: #FCFCFD;
   position: relative;
+  max-width: 1600px;
+  min-width: 320px;
+  margin: 0 auto;
 }
 .footer_textarea {
   margin: 0 auto;
