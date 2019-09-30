@@ -17,6 +17,11 @@ body {
     height: auto;
 }
 
+.responsive {
+    max-width: 100%;
+    max-height: auto;
+  }
+
 .header {
     max-width: 1600px;
     min-width: 320px;
