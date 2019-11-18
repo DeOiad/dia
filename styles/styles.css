@@ -701,6 +701,14 @@ body {
   line-height: 150%;
   border-bottom: 1px solid #E1E1E1;
   padding-bottom: 18px;
+  display: block;
+  border: 0;
+  margin-bottom: 48px;
+  width: 100%;
+  border-bottom: 1px solid #E1E1E1;
+}
+.footer_messagearea__input::placeholder {
+  color: #152032;
 }
 .footer_messagearea__submit {
   width: 226px;
