@@ -758,7 +758,7 @@ body {
 }
 .footer_contactarea_title {
   display: flex;
-  margin-bottom: -21px;
+  margin-bottom: 21px;
 }
 .footer_contactarea_title__heading {
   font-weight: 800;
