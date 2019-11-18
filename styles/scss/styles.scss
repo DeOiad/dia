@@ -31,39 +31,55 @@ body {
     margin: 0 auto;
     position: relative;
 
-    &_navbar {
+    .navbar {
         padding-top: 51px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
 
-    }
+        &-toggler {
+            color: white;
+        }
 
-    &_navbar__link {
-        text-decoration: none;
-        position: relative;
-        color: #FFFFFF;
-        font-size: 16px;
-        line-height: 150%;
+        &-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            width: 100%;
+            max-width: 1200px;
 
-        &:first-child {
-            font-size: 32px;
-            margin-left: 227px;
-            margin-right: 143px;
+            .nav-item {
+                text-decoration: none;
+                position: relative;
+                color: #FFFFFF;
+                font-size: 16px;
+                line-height: 150%;
+                align-items: center;
+        
+                &:first-child {
+                    font-size: 32px;
+                    padding-left: 227px;
+                    padding-right: 143px;
+        
+                    &:hover {
+                        border: none;
+                    }
+                }
+        
+                &:last-child {
+                    margin-left: 135px;
+                }
+        
+                &:hover {
+                    border-bottom: 1px solid #FCC304;
+                }
 
-            &:hover {
-                border: none;
+                .nav-link {
+                    color: white;
+                    &:hover {
+                        color: white;
+                    }
+                }
+        
             }
-        }
-
-        &:last-child {
-            margin-right: 424px;
-            margin-left: 135px;
-        }
-
-        &:hover {
-            border-bottom: 1px solid #FCC304;
         }
 
     }
@@ -163,6 +179,11 @@ body {
             font-size: 12.6px;
             line-height: 150%;
             color: #253757;
+
+            &:hover {
+                text-decoration: none;
+                color: #253757;
+            }
         }
     }
 
